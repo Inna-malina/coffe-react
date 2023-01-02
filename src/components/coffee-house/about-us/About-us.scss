@@ -1,0 +1,21 @@
+@import '../../../index';
+
+.about-us__text {
+    width: 590px;
+    margin: 0px auto;
+    padding: 40px 0px 100px 0px;
+
+    p {
+        font-family: $font-family;
+        font-size: $font__text-size;
+        font-weight: $font__text-weits;
+        line-height: $font__text-line;
+        color: $font__text-color;
+        text-align: $center-content;
+        margin: 0px;
+    }
+}
+
+.about-us__text>*:not(:last-child) {
+    padding: 0px 0px 20px 0px;
+}

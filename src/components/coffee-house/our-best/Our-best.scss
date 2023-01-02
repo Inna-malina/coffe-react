@@ -1,0 +1,13 @@
+.our-best__box {
+    background: url('../../../../public/img/our-best.jpg');
+    padding-bottom: 110px;
+}
+
+.coffee-goods__flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}

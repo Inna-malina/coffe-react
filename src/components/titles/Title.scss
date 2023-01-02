@@ -1,0 +1,12 @@
+@import '../../index';
+
+.title {
+    font-family: $font-family;
+    font-weight: $font__title-two-weits;
+    font-size: $font__title-two-size;
+    line-height: $font__title-two-line;
+    color: $font__title-two-color;
+    text-align: $center-content;
+    padding: 80px 0px 20px 0px;
+    margin: 0px;
+}

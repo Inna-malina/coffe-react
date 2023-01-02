@@ -1,0 +1,95 @@
+@import '../../../index.scss';
+
+.our-coffee__form {
+    padding: 60px 0px 0px 0px;
+}
+
+.form__box {
+    width: 810px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    label {
+        font-family: $font-family;
+        font-size: $font__coods-size;
+        font-weight: $font__coods-weits;
+        line-height: $font__coods-line;
+        margin: 0px 20px 0px 0px;
+
+
+    }
+
+    .our-coffee__search {
+
+        input {
+            outline: none;
+            width: 180px;
+            height: 30px;
+            padding: 0px 0px 0px 10px;
+
+            background: #FFFFFF;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            border: none;
+
+
+            &::placeholder {
+                text-align: center;
+                font-family: $font-family;
+                font-weight: $font__coods-weits;
+                font-size: 12px;
+                line-height: 17.33;
+            }
+        }
+    }
+
+    .our-coffee__filter {
+        display: flex;
+        align-items: center;
+    }
+
+    .filter__button>*:not(:last-child) {
+        margin: 0px 5px 0px 0px;
+
+
+    }
+
+    .filter__button {
+
+
+        .btn {
+            width: 75px;
+            height: 30px;
+            font-family: $font-family;
+            font-size: 12px;
+            outline: none;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+            border: none;
+            transition: all 0.2s ease;
+
+            &:first-child {
+                border-radius: 3px 0px 0px 3px;
+            }
+
+            &:last-child {
+                border-radius: 0px 3px 3px 0px;
+            }
+
+            &:hover {
+                box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+                transition: all 0.2s ease;
+
+            }
+
+        }
+
+        .btn-ligth {
+            background: #d4bd9e;
+        }
+
+        .btn-outline-light {
+            background: #FFFFFF;
+        }
+    }
+}

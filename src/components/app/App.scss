@@ -1,0 +1,68 @@
+@import '../../index.scss';
+
+.app {
+  max-width: 1440px;
+  margin: 0px auto;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+}
+
+.nav__box {
+  display: flex;
+}
+
+.nav__img {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav__list>*:not(:last-child) {
+  margin: 0px 40px 0px 0px;
+}
+
+.nav__list-item {
+  font-size: 12px;
+  font-family: $font-family;
+  font-weight: $font__coods-weits;
+  line-height: 17.33px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+footer {
+  padding: 30px 0px 20px 0px;
+
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    .nav__list-item {
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+footer>*:not(:last-child) {
+  margin: 0px 0px 30px 0px
+}

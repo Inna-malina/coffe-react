@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$center-content: center;
+/* fonts */
+$font-family: 'Merienda', cursive;
+$font__title-weight: 700;
+$font-bg__title-size: 40px;
+$font-bg__title-color: white;
+$font-bg__title-line: 57.76px;
+
+$font__title-two-weits: 400;
+$font__title-two-size: 24px;
+$font__title-two-color: black;
+$font__title-two-line: 34.66px;
+
+$font-nav-size: 12px;
+$font-nav-color: white;
+
+$font__text-size: 14px;
+$font__text-weits: 400;
+$font__text-line: 20.22px;
+$font__text-color: black;
+
+$font__coods-size: 14px;
+$font__coods-weits: 400;
+$font__coodsprise-weits: 700;
+$font__coods-line: 20.22px;
+$font__coods-color: black;
